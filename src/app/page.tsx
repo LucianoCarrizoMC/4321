@@ -8,9 +8,10 @@ export default function Home() {
       <p
         style={{backgroundColor:"blue"} }>como estas?
       </p>
-      <input type="color"
-      className="claseImaguinaria"
-      />oomaigaa
+
+
+
+
     </>
   );
 }
