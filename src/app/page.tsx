@@ -1,17 +1,14 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import FormularioAlumno from "./FormularioAlumno";
+import FormularioAlumnoFinal from "./FormularioAlumnoFinal";
+import TablaAlumnos from "./TablaAlumnos";
+
 
 export default function Home() {
   return (
     <>
-      <h1>hola</h1>
-      <p
-        style={{backgroundColor:"blue"} }>como estas?
-      </p>
-
-
-
-
+    <TablaAlumnos/>
     </>
   );
 }
